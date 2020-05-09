@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#323539",
+          "justifyContent": "center",
+          "padding": 10,
+        },
+        Object {
+          "elevation": 3,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.8,
+          "shadowRadius": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "white",
+          },
+          Object {
+            "fontFamily": "",
+            "fontSize": 20,
+          },
+        ]
+      }
+    >
+      Profil
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#dfe3ee",
+        "flex": 1,
+        "fontFamily": "Catalunyademo",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      activeOpacity={0.7}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 75,
+          "height": 150,
+          "width": 150,
+        }
+      }
+      theme={
+        Object {
+          "colors": Object {
+            "disabled": "hsl(208, 8%, 90%)",
+            "divider": "#bcbbc1",
+            "error": "#ff190c",
+            "grey0": "#393e42",
+            "grey1": "#43484d",
+            "grey2": "#5e6977",
+            "grey3": "#86939e",
+            "grey4": "#bdc6cf",
+            "grey5": "#e1e8ee",
+            "greyOutline": "#bbb",
+            "platform": Object {
+              "android": Object {
+                "error": "#f44336",
+                "primary": "#2196f3",
+                "secondary": "#9C27B0",
+                "success": "#4caf50",
+                "warning": "#ffeb3b",
+              },
+              "ios": Object {
+                "error": "#ff3b30",
+                "primary": "#007aff",
+                "secondary": "#5856d6",
+                "success": "#4cd964",
+                "warning": "#ffcc00",
+              },
+            },
+            "primary": "#2089dc",
+            "searchBg": "#303337",
+            "secondary": "#8F0CE8",
+            "success": "#52c41a",
+            "warning": "#faad14",
+          },
+        }
+      }
+    >
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 75,
+            "flex": 1,
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <Image
+          onLoad={[Function]}
+          source={
+            Object {
+              "uri": "http://www.monavatar.com/face.jpg",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "flex": 1,
+              "height": null,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": null,
+            }
+          }
+          testID="RNE__Image"
+          theme={
+            Object {
+              "colors": Object {
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "primary": "#2196f3",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "primary": "#007aff",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#8F0CE8",
+                "success": "#52c41a",
+                "warning": "#faad14",
+              },
+            }
+          }
+          transition={true}
+        />
+        <View
+          accessibilityElementsHidden={true}
+          importantForAccessibility="no-hide-descendants"
+          pointerEvents="none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bdbdbd",
+                "flex": 1,
+                "height": null,
+                "justifyContent": "center",
+                "width": null,
+              }
+            }
+            testID="RNE__Image__placeholder"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "height": null,
+              "width": null,
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Catalunyademo",
+          "marginTop": 20,
+        }
+      }
+    >
+      http://mon.domain.com
+    </Text>
+    <Text>
+      mon.email@domain.fr
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "#3b5998",
+          "borderRadius": 100,
+          "borderWidth": 1,
+          "color": "#3b5998",
+          "marginTop": 20,
+          "opacity": 1,
+          "paddingHorizontal": 15,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#3b5998",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "letterSpacing": 3,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        My images
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "#3b5998",
+          "borderRadius": 100,
+          "borderWidth": 1,
+          "color": "#3b5998",
+          "marginTop": 20,
+          "opacity": 1,
+          "paddingHorizontal": 15,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#3b5998",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "letterSpacing": 3,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Sign Out
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
